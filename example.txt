@@ -1,0 +1,19 @@
+Hello from the TCP client!
+
+This is a sample file used to test Python TCP file transfer.
+
+The client reads this file in chunks and sends the data
+to the TCP server over a socket connection.
+
+The server receives the data and saves it inside
+the received_files directory.
+
+This demonstrates:
+- socket()
+- connect()
+- sendall()
+- shutdown(SHUT_WR)
+- recv()
+- close()
+
+File transfer completed successfully.
